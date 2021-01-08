@@ -53,6 +53,16 @@ readinessProbe: {}
 #    path: /
 #    port: http
 
+simpleEnv: {}
+complexEnv: {}
+#  - name: foo
+#    valueFrom:
+#      secretKeyRef:
+#        key: bar
+envFrom: []
+#  - secretRef:
+#      name: xxx
+
 ingress:
   enabled: false
   annotations: {}
